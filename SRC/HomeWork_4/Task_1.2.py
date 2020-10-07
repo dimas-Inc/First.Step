@@ -1,14 +1,7 @@
-s=[3, 10, 5, 25, 2, 8]
+a = [3, 10, 5, 25, 2, 8]
 z=[]
-for i in s:
-    a=i^s[0]
-    z.append(a)
-    b=i^s[1]
+for i in a: 
+    b = i^a[0],i^a[1],i^a[2],i^a[3],i^a[4],i^a[5]
     z.append(b)
-    c=i^s[2]
-    z.append(c)
-    d=i^s[3]
-    z.append(d)
-    e=i^s[4]
-    z.append(e)
-print(max(z))
+    m=max(z)
+print(max(m))
