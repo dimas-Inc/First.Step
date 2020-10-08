@@ -1,9 +1,6 @@
-A = [1,3,2,2]
+A = [1,3,4,4,2]
 counter = {}
-
-for elem in A:
-    counter[elem] = counter.get(elem, 0) + 1
-
+for i in A:
+    counter[i] = counter.get(i, 0) + 1
 doubles = {element: count for element, count in counter.items() if count > 1}
-
 print(doubles)
